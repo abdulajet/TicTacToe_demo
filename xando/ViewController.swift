@@ -111,6 +111,7 @@ class ViewController: UIViewController {
     }
     
     func labelSetup(){
+        
         winLabel.isHidden = true
         playAgainBtn.isHidden = true
         
