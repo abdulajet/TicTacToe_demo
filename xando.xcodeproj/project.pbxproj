@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414F21651D87971F00A75AF8 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 414F21621D87971F00A75AF8 /* board.png */; };
+		414F21661D87971F00A75AF8 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 414F21631D87971F00A75AF8 /* cross.png */; };
+		414F21671D87971F00A75AF8 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 414F21641D87971F00A75AF8 /* nought.png */; };
 		41DD6D941D878CF70014E681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD6D931D878CF70014E681 /* AppDelegate.swift */; };
 		41DD6D961D878CF70014E681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD6D951D878CF70014E681 /* ViewController.swift */; };
 		41DD6D991D878CF70014E681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DD6D971D878CF70014E681 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		414F21621D87971F00A75AF8 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		414F21631D87971F00A75AF8 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		414F21641D87971F00A75AF8 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		41DD6D901D878CF70014E681 /* xando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DD6D931D878CF70014E681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41DD6D951D878CF70014E681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				41DD6D9A1D878CF70014E681 /* Assets.xcassets */,
 				41DD6D9C1D878CF70014E681 /* LaunchScreen.storyboard */,
 				41DD6D9F1D878CF70014E681 /* Info.plist */,
+				414F21621D87971F00A75AF8 /* board.png */,
+				414F21631D87971F00A75AF8 /* cross.png */,
+				414F21641D87971F00A75AF8 /* nought.png */,
 			);
 			path = xando;
 			sourceTree = "<group>";
@@ -124,6 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414F21661D87971F00A75AF8 /* cross.png in Resources */,
+				414F21651D87971F00A75AF8 /* board.png in Resources */,
+				414F21671D87971F00A75AF8 /* nought.png in Resources */,
 				41DD6D9E1D878CF70014E681 /* LaunchScreen.storyboard in Resources */,
 				41DD6D9B1D878CF70014E681 /* Assets.xcassets in Resources */,
 				41DD6D991D878CF70014E681 /* Main.storyboard in Resources */,
@@ -300,6 +312,7 @@
 				41DD6DA41D878CF70014E681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
